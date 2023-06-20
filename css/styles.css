@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: #f3f3f3;
+}
+.logoPrincipal {
+    width: 100px;
+    mix-blend-mode: darken;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav a {
+    padding: 0.5rem;
+}
+.botonNav{
+    border-right: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main h1, main h2, main p {
+    align-self: start;
+    margin-bottom: 0.5rem;
+}
+
+main p {
+    text-align: start;
+    font-style: italic;
+}
+.botonesPrincipales {
+    display: flex;
+    flex-direction: row;
+}
+
+.botonesPrincipales a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.botonIndex {
+    background-color: pink
+}
+.botonesPrincipales a:hover {
+    filter: brightness(150%);
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    filter: grayscale(100%);
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 1rem;
+}
+
+footer h3, footer span {
+    margin: 0.5rem;
+}
