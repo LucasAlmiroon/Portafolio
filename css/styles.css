@@ -39,7 +39,6 @@ main {
 }
 
 main h1, main h2, main p {
-    align-self: start;
     margin-bottom: 0.5rem;
 }
 
@@ -47,6 +46,7 @@ main p {
     text-align: start;
     font-style: italic;
 }
+
 .botonesPrincipales {
     display: flex;
     flex-direction: row;
@@ -76,6 +76,23 @@ main p {
     width: 250px;
     height: 250px;
     filter: grayscale(100%);
+}
+
+
+.mainCurriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainCurriculum h1, .mainCurriculum h2, .mainCurriculum h3, .mainCurriculum p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.mainCurriculum div img {
+
+    width: 250px;
 }
 
 footer { 
